@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 
 
     document.addEventListener('change', e=>{
-        
+        e.preventDefault()
         sortLi(e.target.value)
     })
     getImg()
